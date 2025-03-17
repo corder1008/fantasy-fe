@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-transparent absolute text-white shadow-lg w-full">
+    <header className="bg-[#1B0001] fixed text-white shadow-lg w-full z-100">
       <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex gap-2 flex-row">
@@ -23,7 +23,6 @@ const Header = () => {
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:block">
             <ul className="flex space-x-8">
               <li>

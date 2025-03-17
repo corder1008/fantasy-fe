@@ -1,8 +1,12 @@
+"use client";
+
 import Image from "next/image";
+import EmojisComponent from "./emoji";
 
 export const Summary = () => {
   return (
-    <div className="flex flex-row bg-gradient-to-b from-[#1A0001] to-[#330001] px-20 pt-40 justify-between">
+    <div className="flex relative flex-row bg-gradient-to-b from-[#1A0001] to-[#330001] px-20 pt-40 justify-between">
+      <EmojisComponent />
       <div className="flex">
         <div className="flex justify-items-start items-start">
           <Image
@@ -33,14 +37,14 @@ export const Summary = () => {
               landscapes, mysterious quests, and the charm of a unique flower
               shop. Explore, trade, and thrive in Aerith!
             </p>
-            <button className="bg-[#CC3F41] hover:bg-[#a63234] text-[#FFD188] text-[15px] font-semibold px-6 py-4 rounded-full transition-colors duration-200 border-2">
+            <button className="bg-[#CC3F41] hover:bg-[#a63234] z-20 text-[#FFD188] text-[15px] cursor-pointer font-semibold px-6 py-4 rounded-full transition-colors duration-200 border-2">
               Buy Flowers
             </button>
           </div>
         </div>
       </div>
       <div className="flex relative">
-        <div className="absolute mx-auto">
+        <div className="absolute mx-auto z-1">
           <Image
             src={"/images/back-she.png"}
             width={300}
@@ -54,7 +58,7 @@ export const Summary = () => {
           width={335}
           height={400}
           alt="background image"
-          className="relative"
+          className="relative z-2"
         />
       </div>
     </div>
