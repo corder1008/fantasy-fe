@@ -13,7 +13,7 @@ export const TokenomicsChart = () => {
     ],
   };
   return (
-    <div className="flex relative">
+    <div className="hidden md:flex relative">
       <Pie data={data} />
       <div className="absolute top-5/12 left-[40px] text-black">
         <p className="font-bold">75%</p>

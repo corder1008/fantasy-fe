@@ -12,11 +12,13 @@ export const AboutUs = () => {
       />
       <div className="flex gap-2 items-center justify-center mt-4">
         <Image src={"./images/logo.svg"} width={25} height={25} alt="log" />
-        <p className="text-[40px]">Unveiling Aeriths Magic</p>
+        <p className="text-[25px] md:text-[40px] text-center">
+          Unveiling Aeriths Magic
+        </p>
         <Image src={"./images/logo.svg"} width={25} height={25} alt="log" />
       </div>
 
-      <div className="flex flex-row mt-6 gap-4">
+      <div className="flex flex-col md:flex-row mt-6 gap-4">
         <ImageCard
           imageUrl="./images/flower_shop.svg"
           text="Run your own flower shop where you can grow, harvest, and trade a

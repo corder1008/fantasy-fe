@@ -13,9 +13,21 @@ export const Tokenomics = () => {
         alt="tokenomics"
       />
       <div className="flex gap-2 items-center justify-center mt-4">
-        <Image src={"./images/logo.svg"} width={50} height={50} alt="log" />
-        <p className="text-[40px]">AER Tokenomics</p>
-        <Image src={"./images/logo.svg"} width={50} height={50} alt="log" />
+        <Image
+          src={"./images/logo.svg"}
+          width={50}
+          height={50}
+          alt="log"
+          className="w-[20px] h-[20px] md:w-[50px] md:h-[50px]"
+        />
+        <p className="text-[20px] md:text-[40px]">AER Tokenomics</p>
+        <Image
+          src={"./images/logo.svg"}
+          width={50}
+          height={50}
+          alt="log"
+          className="w-[20px] h-[20px] md:w-[50px] md:h-[50px]"
+        />
       </div>
       <div className="flex flex-row gap-4 pt-8">
         <TokenomicsChart />

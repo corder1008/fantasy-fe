@@ -1,5 +1,11 @@
+"use client";
 import Image from "next/image";
 import { ShopImageCard } from "../shopImageCard";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 export const ShopUs = () => {
   return (
@@ -12,21 +18,82 @@ export const ShopUs = () => {
       />
       <div className="flex gap-2 items-center justify-center mt-4">
         <Image src={"./images/logo.svg"} width={25} height={25} alt="log" />
-        <p className="text-[40px]">The Enchanted Flower Shop</p>
+        <p className="text-[20px] md:text-[40px] text-center">
+          The Enchanted Flower Shop
+        </p>
         <Image src={"./images/logo.svg"} width={25} height={25} alt="log" />
       </div>
 
-      <div className="flex flex-row mt-6 gap-4">
-        <ShopImageCard imageUrl="./images/shop_image1.svg" text="Pink Cosmos" />
-        <ShopImageCard
-          imageUrl="./images/shop_image2.svg"
-          text="White Cosmos"
-        />
-        <ShopImageCard
-          imageUrl="./images/shop_image3.svg"
-          text="Purple Cosmos"
-        />
-      </div>
+      <Swiper
+        slidesPerView={4}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="w-full"
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+        }}
+      >
+        <SwiperSlide>
+          <ShopImageCard
+            imageUrl="./images/shop_image1.svg"
+            text="Pink Cosmos"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ShopImageCard
+            imageUrl="./images/shop_image2.svg"
+            text="White Cosmos"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ShopImageCard
+            imageUrl="./images/shop_image3.svg"
+            text="Purple Cosmos"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ShopImageCard
+            imageUrl="./images/shop_image3.svg"
+            text="Purple Cosmos"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ShopImageCard
+            imageUrl="./images/shop_image3.svg"
+            text="Purple Cosmos"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ShopImageCard
+            imageUrl="./images/shop_image3.svg"
+            text="Purple Cosmos"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ShopImageCard
+            imageUrl="./images/shop_image3.svg"
+            text="Purple Cosmos"
+          />
+        </SwiperSlide>
+      </Swiper>
     </div>
   );
 };

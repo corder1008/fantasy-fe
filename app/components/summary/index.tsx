@@ -5,7 +5,7 @@ import EmojisComponent from "./emoji";
 
 export const Summary = () => {
   return (
-    <div className="flex relative flex-row bg-gradient-to-b from-[#1A0001] to-[#330001] px-20 pt-40 justify-between">
+    <div className="flex relative flex-row bg-gradient-to-b from-[#1A0001] to-[#330001] md:px-20 pb-10 pt-40 justify-between">
       <EmojisComponent />
       <div className="flex">
         <div className="flex justify-items-start items-start">
@@ -31,7 +31,7 @@ export const Summary = () => {
                 />
               </div>
             </h1>
-            <p className="text-lg mb-8 text-gray-300 max-w-[700px]">
+            <p className="text-lg mb-8 text-gray-300 w-full md:max-w-[700px]">
               Immerse yourself in a magical world where adventure meets
               tranquility. Join us on an epic journey filled with enchanting
               landscapes, mysterious quests, and the charm of a unique flower

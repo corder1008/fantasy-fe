@@ -114,7 +114,7 @@ const Header = () => {
             </button>
           </div>
 
-          <button className="bg-[#CC3F41] hover:bg-[#a63234] text-[#FFD188] text-[15px] font-semibold px-6 py-4 rounded-full transition-colors duration-200 border-2">
+          <button className="hidden md:visible bg-[#CC3F41] hover:bg-[#a63234] text-[#FFD188] text-[15px] font-semibold px-6 py-4 rounded-full transition-colors duration-200 border-2">
             Connect Wallet
           </button>
         </div>
