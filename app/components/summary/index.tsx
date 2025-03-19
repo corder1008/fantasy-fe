@@ -5,10 +5,10 @@ import EmojisComponent from "./emoji";
 
 export const Summary = () => {
   return (
-    <div className="flex relative flex-row bg-gradient-to-b from-[#1A0001] to-[#330001] md:px-20 pb-10 pt-40 justify-between">
+    <div className="flex relative flex-col md:flex-row bg-gradient-to-b from-[#1A0001] to-[#330001] md:px-20 pb-10 pt-40 justify-between">
       <EmojisComponent />
       <div className="flex">
-        <div className="flex justify-items-start items-start">
+        <div className="hidden md:flex justify-items-start items-start">
           <Image
             src={"./images/step-logo.svg"}
             width={29}
@@ -43,7 +43,7 @@ export const Summary = () => {
           </div>
         </div>
       </div>
-      <div className="flex relative">
+      <div className="flex w-full h-full justify-center relative">
         <div className="absolute mx-auto z-1">
           <Image
             src={"/images/back-she.png"}

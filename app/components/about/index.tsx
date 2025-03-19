@@ -27,14 +27,14 @@ export const AboutUs = () => {
           topic="Flower Shop"
         />
         <ImageCard
-          imageUrl="./images/epic_battles.svg"
+          imageUrl="./images/flower_shop.svg"
           text="Embark on a series of captivating quests that take you through
             magical landscapes, challenging puzzles, and epic battles. Each
             adventure is meticulously designed to immerse you in the rich."
           topic="Epic Battles"
         />
         <ImageCard
-          imageUrl="./images/native_token.svg"
+          imageUrl="./images/flower_shop.svg"
           text="Engage in a dynamic in-game economy powered by the native token,
             AER. Earn, trade, and spend AER through various activities such as
             completing quests, upgrading your shop."
