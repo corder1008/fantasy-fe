@@ -18,7 +18,7 @@ export const Summary = () => {
         </div>
         <div className="relative  text-white px-6 ">
           <div className="max-w-3xl mx-auto pt-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 className="text-4xl xl:text-5xl font-bold mb-4">
               Step into the Enchanted
               <br />
               <div className="flex gap-2">

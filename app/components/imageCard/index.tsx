@@ -7,13 +7,13 @@ interface ImageCardProps {
 }
 export const ImageCard = ({ imageUrl, topic, text }: ImageCardProps) => {
   return (
-    <div className="flex flex-col h-[400px] w-[350px] rounded-2xl overflow-hidden text-center bg-[#5F2223] gap-4">
+    <div className="flex flex-col h-[400px] w-[300px] md:w-[320px] 2xl:w-[350px] rounded-2xl overflow-hidden text-center bg-[#5F2223] gap-4">
       <Image
         src={imageUrl}
         alt="flower_shop"
         width={100}
         height={100}
-        className="w-full h-[222px]"
+        className="w-full h-auto"
       />
       <div className="px-2">
         <h3>{topic}</h3>
