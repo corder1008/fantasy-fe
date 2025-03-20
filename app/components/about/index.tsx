@@ -18,7 +18,7 @@ export const AboutUs = () => {
         <Image src={"./images/logo.svg"} width={25} height={25} alt="log" />
       </div>
 
-      <div className="flex flex-col lg:flex-row mt-6 gap-4">
+      <div className="flex flex-col lg:flex-row mt-6 gap-10">
         <ImageCard
           imageUrl="./images/flower_shop.svg"
           text="Run your own flower shop where you can grow, harvest, and trade a
