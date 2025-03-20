@@ -46,9 +46,13 @@ export const ShopUs = () => {
             spaceBetween: 30,
           },
           1024: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 30,
           },
+          1200:{
+            slidesPerView: 4,
+            spaceBetween: 30,
+          }
         }}
       >
         <SwiperSlide>
