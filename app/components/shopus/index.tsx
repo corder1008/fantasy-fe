@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 export const ShopUs = () => {
   return (
-    <div className="bg-[#160000] text-white px-20 flex flex-col py-10 items-center">
+    <div className="bg-[#160000] text-white px-20 flex flex-col py-10 items-center pb-20">
       <Image
         src={"./images/shop_us.svg"}
         width={80}
