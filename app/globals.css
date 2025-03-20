@@ -29,3 +29,9 @@ body {
   opacity: none !important;
   background: white !important;
 }
+
+.swiper-slide-active{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
