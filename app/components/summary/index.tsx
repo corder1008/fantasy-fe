@@ -5,7 +5,7 @@ import EmojisComponent from "./emoji";
 
 export const Summary = () => {
   return (
-    <div className="flex relative flex-col md:flex-row bg-gradient-to-b from-[#1A0001] to-[#330001] md:px-20 pb-10 pt-40 justify-between">
+    <div className="flex relative flex-col md:flex-row bg-gradient-to-b from-[#1A0001] to-[#330001] md:px-20 pb-10 pt-40 justify-between items-end">
       <EmojisComponent />
       <div className="flex">
         <div className="hidden md:flex justify-items-start items-start">
