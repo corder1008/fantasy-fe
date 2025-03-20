@@ -53,10 +53,10 @@ export const RoadMap = () => {
               alt="roadmap_background"
             />
           </div>
-          <div className="flex flex-col justify-between h-[600px] gap-4 md:gap-0">
+          <div className="flex flex-col justify-between h-fit md:h-[600px] gap-4 md:gap-0">
             <div className="flex flex-col bg-[#7A3738] w-full md:w-[350px] pt-4 rounded-[10px] overflow-hidden">
               <p className=" px-4">Step 01: Name</p>
-              <p className="bg-[#5B1E1F] px-4 py-2 text-[12px] text-gray-400">
+              <p className="bg-[#5B1E1F] px-4 py-4 text-[12px] text-gray-400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 onsectetur adipiscing elit, sed do Lorem ipsum dolor sit amet,
@@ -68,7 +68,7 @@ export const RoadMap = () => {
 
             <div className="flex flex-col bg-[#7A3738] w-full md:w-[350px] pt-4 rounded-[10px] overflow-hidden">
               <p className=" px-4">Step 02: Name</p>
-              <p className="bg-[#5B1E1F] px-4 py-2 text-[12px] text-gray-400">
+              <p className="bg-[#5B1E1F] px-4 py-4 text-[12px] text-gray-400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 onsectetur adipiscing elit, sed do Lorem ipsum dolor sit amet,
@@ -80,7 +80,7 @@ export const RoadMap = () => {
 
             <div className="flex flex-col bg-[#7A3738] w-full md:w-[350px] pt-4 rounded-[10px] overflow-hidden">
               <p className=" px-4">Step 03: Name</p>
-              <p className="bg-[#5B1E1F] px-4 py-2 text-[12px] text-gray-400">
+              <p className="bg-[#5B1E1F] px-4 py-4 text-[12px] text-gray-400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 onsectetur adipiscing elit, sed do Lorem ipsum dolor sit amet,
