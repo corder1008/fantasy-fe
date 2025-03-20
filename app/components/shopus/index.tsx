@@ -57,43 +57,43 @@ export const ShopUs = () => {
       >
         <SwiperSlide>
           <ShopImageCard
-            imageUrl="./images/shop_image1.svg"
+            imageUrl="./images/background1.png"
             text="Pink Cosmos"
           />
         </SwiperSlide>
         <SwiperSlide>
           <ShopImageCard
-            imageUrl="./images/shop_image2.svg"
+            imageUrl="./images/background2.png"
             text="White Cosmos"
           />
         </SwiperSlide>
         <SwiperSlide>
           <ShopImageCard
-            imageUrl="./images/shop_image3.svg"
+            imageUrl="./images/background3.png"
             text="Purple Cosmos"
           />
         </SwiperSlide>
         <SwiperSlide>
           <ShopImageCard
-            imageUrl="./images/shop_image3.svg"
+            imageUrl="./images/background4.png"
             text="Purple Cosmos"
           />
         </SwiperSlide>
         <SwiperSlide>
           <ShopImageCard
-            imageUrl="./images/shop_image3.svg"
+            imageUrl="./images/background5.png"
             text="Purple Cosmos"
           />
         </SwiperSlide>
         <SwiperSlide>
           <ShopImageCard
-            imageUrl="./images/shop_image3.svg"
+            imageUrl="./images/background6.png"
             text="Purple Cosmos"
           />
         </SwiperSlide>
         <SwiperSlide>
           <ShopImageCard
-            imageUrl="./images/shop_image3.svg"
+            imageUrl="./images/background7.png"
             text="Purple Cosmos"
           />
         </SwiperSlide>
