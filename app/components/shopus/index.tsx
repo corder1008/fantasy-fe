@@ -53,7 +53,7 @@ export const ShopUs = () => {
             slidesPerView: 3,
             spaceBetween: 30,
           },
-          1500:{
+          1600:{
             slidesPerView: 4,
             spaceBetween: 30,
           }
