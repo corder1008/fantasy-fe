@@ -30,11 +30,6 @@ body {
   background: white !important;
 }
 
-.swiper-slide-active{
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
 
 .swiper-pagination{
   position: relative !important;
@@ -44,4 +39,12 @@ body {
 .swiper-side:hover{
   transform: scale(1.5) !important;
   transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+  .swiper-slide-active{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
 }
