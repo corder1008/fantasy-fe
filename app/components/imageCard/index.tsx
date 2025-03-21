@@ -16,8 +16,8 @@ export const ImageCard = ({ imageUrl, topic, text }: ImageCardProps) => {
         className="w-full h-auto"
       />
       <div className="px-2">
-        <h3 className="text-[30px]">{topic}</h3>
-        <p className="text-[22px] lg:text-[14px]">{text}</p>
+        <h3 className="text-[15px] md:text-[30px]">{topic}</h3>
+        <p className=" text-[12px] md:text-[22px] lg:text-[14px]">{text}</p>
       </div>
     </div>
   );

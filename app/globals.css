@@ -35,3 +35,13 @@ body {
   justify-content: center !important;
   align-items: center !important;
 }
+
+.swiper-pagination{
+  position: relative !important;
+  margin-top: 10px;
+}
+
+.swiper-side:hover{
+  transform: scale(1.5) !important;
+  transition: transform 0.3s ease-in-out;
+}
