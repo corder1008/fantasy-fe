@@ -31,7 +31,7 @@ export const ShopUs = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="w-full"
+        className="w-full mt-10"
         breakpoints={{
           320: {
             slidesPerView: 1,
