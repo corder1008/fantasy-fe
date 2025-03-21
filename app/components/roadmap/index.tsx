@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export const RoadMap = () => {
   return (
-    <div className="bg-[#160000] text-white px-20 flex flex-col py-10 items-center">
+    <div
+      className="bg-[#160000] text-white px-20 flex flex-col py-10 items-center"
+      id="roadmap"
+    >
       <Image
         src={"./images/roadmap.svg"}
         width={80}

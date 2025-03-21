@@ -5,13 +5,15 @@ import { TokenomicsChart } from "../chart";
 
 export const Tokenomics = () => {
   return (
-    <div className="bg-[#160000] text-white px-20 flex flex-col py-10 items-center relative pt-20">
+    <div
+      className="bg-[#160000] text-white px-20 flex flex-col py-10 items-center relative pt-20"
+      id="tokenomic"
+    >
       <Image
         src={"./images/tokenomics.svg"}
         width={80}
         height={80}
         alt="tokenomics"
-        
       />
       <div className="flex gap-2 items-center justify-center mt-4">
         <Image
@@ -30,7 +32,7 @@ export const Tokenomics = () => {
           className="w-[20px] h-[20px] md:w-[50px] md:h-[50px]"
         />
       </div>
-      <div className="flex flex-row gap-4 pt-8">
+      <div className="relative flex flex-row gap-4 m-8 rounded-2xl">
         <TokenomicsChart />
         <div className="flex gap-4 flex-col items-center justify-center">
           <div>

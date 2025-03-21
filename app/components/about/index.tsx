@@ -3,7 +3,10 @@ import { ImageCard } from "../imageCard";
 
 export const AboutUs = () => {
   return (
-    <div className="bg-[#160000] text-white px-20 flex flex-col py-10 items-center">
+    <div
+      className="bg-[#160000] text-white px-20 flex flex-col py-10 items-center"
+      id="about"
+    >
       <Image
         src={"./images/about_us.svg"}
         width={80}

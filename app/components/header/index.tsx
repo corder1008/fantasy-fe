@@ -27,7 +27,7 @@ const Header = () => {
             <ul className="flex space-x-8">
               <li>
                 <Link
-                  href="/"
+                  href="#home"
                   className="hover:text-blue-400 transition-colors"
                 >
                   Home
@@ -35,7 +35,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/about"
+                  href="#about"
                   className="hover:text-blue-400 transition-colors"
                 >
                   About
@@ -43,7 +43,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/shop"
+                  href="#shop"
                   className="hover:text-blue-400 transition-colors"
                 >
                   shop
@@ -51,7 +51,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/Tokenomic"
+                  href="#tokenomic"
                   className="hover:text-blue-400 transition-colors"
                 >
                   Tokenomic
@@ -59,18 +59,10 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/roadmap"
+                  href="#roadmap"
                   className="hover:text-blue-400 transition-colors"
                 >
                   Roadmap
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/stake"
-                  className="hover:text-blue-400 transition-colors"
-                >
-                  Stake
                 </Link>
               </li>
             </ul>
