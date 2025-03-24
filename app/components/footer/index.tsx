@@ -3,13 +3,7 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <footer className="relative bg-[#160000] p-4 text-center justify-center w-full flex flex-col items-center px-20 overflow-hidden">
-      <Image
-        src={"./images/flower-frame.svg"}
-        width={100}
-        height={100}
-        alt="flower-frame"
-        className="w-screen absolute top-0 opacity-10"
-      />
+      
 
       <h1 className="text-[#EF3F41] text-[40px]">Aerith Flower Shop</h1>
       <p className="text-gray-300 text-[12px] w-[400px] text-center">

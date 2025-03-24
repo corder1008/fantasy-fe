@@ -11,6 +11,13 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="bg-[#1B0001] fixed text-white shadow-lg w-full z-100">
       <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
@@ -29,6 +36,7 @@ const Header = () => {
                 <Link
                   href="#home"
                   className="hover:text-blue-400 transition-colors"
+                  onClick={() => scrollToSection("home")}
                 >
                   Home
                 </Link>
@@ -37,6 +45,7 @@ const Header = () => {
                 <Link
                   href="#about"
                   className="hover:text-blue-400 transition-colors"
+                  onClick={() => scrollToSection("about")}
                 >
                   About
                 </Link>
@@ -45,6 +54,7 @@ const Header = () => {
                 <Link
                   href="#shop"
                   className="hover:text-blue-400 transition-colors"
+                  onClick={() => scrollToSection("shop")}
                 >
                   shop
                 </Link>
@@ -53,6 +63,7 @@ const Header = () => {
                 <Link
                   href="#tokenomic"
                   className="hover:text-blue-400 transition-colors"
+                  onClick={() => scrollToSection("tokenomic")}
                 >
                   Tokenomic
                 </Link>
@@ -61,6 +72,7 @@ const Header = () => {
                 <Link
                   href="#roadmap"
                   className="hover:text-blue-400 transition-colors"
+                  onClick={() => scrollToSection("roadmap")}
                 >
                   Roadmap
                 </Link>
@@ -117,6 +129,7 @@ const Header = () => {
             <Link
               href="#home"
               className="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400 hover:bg-gray-700"
+              onClick={() => scrollToSection("home")}
             >
               Home
             </Link>

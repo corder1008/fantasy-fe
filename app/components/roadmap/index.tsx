@@ -3,9 +3,16 @@ import Image from "next/image";
 export const RoadMap = () => {
   return (
     <div
-      className="bg-[#160000] text-white px-20 flex flex-col py-10 items-center"
+      className="bg-[#160000] text-white px-20 flex flex-col py-10 items-center relative "
       id="roadmap"
     >
+      <Image
+        src={"./images/flower-frame.svg"}
+        width={100}
+        height={100}
+        alt="flower-frame"
+        className="w-screen absolute bottom-[-150px] opacity-10"
+      />
       <Image
         src={"./images/roadmap.svg"}
         width={80}
@@ -43,7 +50,7 @@ export const RoadMap = () => {
         <div className="flex flex-row gap-8">
           <div className="hidden md:flex flex-col items-center">
             <Image
-              src={"./images/logo.svg"}
+              src={"./images/top_slider.svg"}
               width={15}
               height={15}
               alt="roadmap_background"
@@ -51,7 +58,7 @@ export const RoadMap = () => {
             />
             <div className="bg-[#FFD188] w-[2px] h-full" />
             <Image
-              src={"./images/logo.svg"}
+              src={"./images/down_slider.svg"}
               width={15}
               height={15}
               alt="roadmap_background"
