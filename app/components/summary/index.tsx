@@ -5,10 +5,10 @@ import EmojisComponent from "./emoji";
 
 export const Summary = () => {
   return (
-    <div className="flex relative flex-col md:flex-row bg-gradient-to-b from-[#1A0001] to-[#330001] md:px-20 pb-10 pt-40 justify-between items-end">
+    <div className="flex relative flex-col md:flex-row bg-gradient-to-b from-[#1A0001] to-[#330001] md:px-20 pb-10 pt-40 justify-center items-center">
       <EmojisComponent />
-      <div className="flex">
-        <div className="hidden md:flex justify-items-start items-start">
+      <div className="flex h-full relative">
+        <div className="hidden md:flex justify-items-start items-start h-full">
           <Image
             src={"./images/step-logo.svg"}
             width={29}
@@ -16,9 +16,9 @@ export const Summary = () => {
             alt="step_logo"
           />
         </div>
-        <div className="relative  text-white px-6 ">
-          <div className="max-w-3xl mx-auto pt-4">
-            <h1 className="text-4xl xl:text-5xl font-bold mb-4">
+        <div className="flex relative text-white px-6 h-full">
+          <div className="flex h-full flex-col max-w-2xl mx-auto pt-4">
+            <h1 className="flex flex-col h-full text-4xl xl:text-5xl font-bold mb-4">
               Step into the Enchanted
               <br />
               <div className="flex gap-2">
@@ -31,19 +31,19 @@ export const Summary = () => {
                 />
               </div>
             </h1>
-            <p className="text-lg mb-8 text-gray-300 w-full md:max-w-[700px]">
+            <p className="flex text-lg mb-8 text-gray-300 w-full md:max-w-[700px]">
               Immerse yourself in a magical world where adventure meets
               tranquility. Join us on an epic journey filled with enchanting
               landscapes, mysterious quests, and the charm of a unique flower
               shop. Explore, trade, and thrive in Aerith!
             </p>
-            <button className="bg-[#CC3F41] hover:bg-[#a63234] z-20 text-[#FFD188] text-[15px] cursor-pointer font-semibold px-6 py-4 rounded-full transition-colors duration-200 border-2">
+            <button className="flex w-fit bg-[#CC3F41] hover:bg-[#a63234] z-20 text-[#FFD188] text-[15px] cursor-pointer font-semibold px-6 py-4 rounded-full transition-colors duration-200 border-2">
               Buy Flowers
             </button>
           </div>
         </div>
       </div>
-      <div className="flex w-full h-full justify-center relative">
+      <div className="flex h-full justify-center relative">
         <div className="absolute mx-auto z-1">
           <Image
             src={"/images/back-she.png"}

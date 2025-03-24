@@ -43,17 +43,19 @@ export const RoadMap = () => {
         <div className="flex flex-row gap-8">
           <div className="hidden md:flex flex-col items-center">
             <Image
-              src={"./images/top_slider.svg"}
+              src={"./images/logo.svg"}
               width={15}
               height={15}
               alt="roadmap_background"
+              className="mb-2"
             />
             <div className="bg-[#FFD188] w-[2px] h-full" />
             <Image
-              src={"./images/down_slider.svg"}
+              src={"./images/logo.svg"}
               width={15}
               height={15}
               alt="roadmap_background"
+              className="mt-2"
             />
           </div>
           <div className="flex flex-col justify-between h-fit md:h-[600px] gap-4 md:gap-0">

@@ -39,9 +39,9 @@ export const Footer = () => {
           className="cursor-pointer"
         />
       </div>
-      <div className="w-full h-[2px] bg-white mt-4"></div>
-      <div className="text-gray-300 mt-4 flex flex-row w-full justify-between">
-        <p className="text-[14px]">AERITH FLOWER SHOP © 2024</p>
+      <div className="w-full h-[2px] bg-white mt-4 opacity-20"></div>
+      <div className="text-gray-300 text-[12px] mt-4 flex flex-row w-full justify-between">
+        <p>AERITH FLOWER SHOP © 2024</p>
         <div>
           <a href="/terms">Terms and Conditions</a>
           <a href="/privacy" className="ml-4">

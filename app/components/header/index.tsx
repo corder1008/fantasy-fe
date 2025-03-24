@@ -106,7 +106,7 @@ const Header = () => {
             </button>
           </div>
 
-          <button className="hidden md:visible bg-[#CC3F41] hover:bg-[#a63234] text-[#FFD188] text-[15px] font-semibold px-6 py-4 rounded-full transition-colors duration-200 border-2">
+          <button className="hidden md:flex bg-[#CC3F41] hover:bg-[#a63234] text-[#FFD188] text-[15px] font-semibold px-6 py-4 rounded-full transition-colors duration-200 border-2">
             Connect Wallet
           </button>
         </div>
@@ -115,28 +115,34 @@ const Header = () => {
         <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
-              href="/"
+              href="#home"
               className="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400 hover:bg-gray-700"
             >
               Home
             </Link>
             <Link
-              href="/characters"
-              className="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400 hover:bg-gray-700"
-            >
-              Characters
-            </Link>
-            <Link
-              href="/weapons"
-              className="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400 hover:bg-gray-700"
-            >
-              Weapons
-            </Link>
-            <Link
-              href="/about"
+              href="#about"
               className="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400 hover:bg-gray-700"
             >
               About
+            </Link>
+            <Link
+              href="#shop"
+              className="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400 hover:bg-gray-700"
+            >
+              Shop
+            </Link>
+            <Link
+              href="/tokenomic"
+              className="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400 hover:bg-gray-700"
+            >
+              Tokenomic
+            </Link>
+            <Link
+              href="/roadmap"
+              className="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400 hover:bg-gray-700"
+            >
+              Roadmap
             </Link>
           </div>
         </div>
